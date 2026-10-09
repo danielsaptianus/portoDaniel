@@ -52,7 +52,7 @@ export default function Contact() {
       )}
 
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="rounded-3xl bg-slate-900/60 border border-white/10 p-6 sm:p-10 lg:p-12 shadow-2xl shadow-black/40 backdrop-blur-xl">
+        <div className="rounded-3xl bg-slate-900 border border-white/10 p-6 sm:p-10 lg:p-12 shadow-xl shadow-black/40">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12">
             {/* Left: Info & Methods */}
             <div className="lg:col-span-6 space-y-6">

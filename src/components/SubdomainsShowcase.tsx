@@ -77,7 +77,7 @@ export default function SubdomainsShowcase() {
 
         {/* ===================== SUBDOMAIN 1: POS SYSTEM ===================== */}
         {activeSubdomain === "pos" && (
-          <div className="rounded-3xl border border-sky-500/30 bg-gradient-to-b from-slate-900/90 to-[#0b0f19] p-6 sm:p-10 shadow-2xl shadow-sky-950/40 backdrop-blur-xl transition-all duration-300">
+          <div className="rounded-3xl border border-sky-500/30 bg-gradient-to-b from-slate-900 to-[#0b0f19] p-6 sm:p-10 shadow-xl shadow-black/40">
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
               {/* Left Column: Info & Architecture */}
               <div className="lg:col-span-7 space-y-6">
@@ -237,7 +237,7 @@ export default function SubdomainsShowcase() {
 
         {/* ===================== SUBDOMAIN 2: CHATSPHERE ===================== */}
         {activeSubdomain === "chat" && (
-          <div className="rounded-3xl border border-purple-500/30 bg-gradient-to-b from-slate-900/90 to-[#0b0f19] p-6 sm:p-10 shadow-2xl shadow-purple-950/40 backdrop-blur-xl transition-all duration-300">
+          <div className="rounded-3xl border border-purple-500/30 bg-gradient-to-b from-slate-900 to-[#0b0f19] p-6 sm:p-10 shadow-xl shadow-black/40">
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
               {/* Left Column: Info & Architecture */}
               <div className="lg:col-span-7 space-y-6">

@@ -33,7 +33,7 @@ export default function Terminal() {
   };
 
   return (
-    <div className="w-full rounded-2xl overflow-hidden border border-white/10 bg-[#0d131f]/90 shadow-2xl shadow-sky-950/40 backdrop-blur-xl">
+    <div className="w-full rounded-2xl overflow-hidden border border-white/10 bg-[#0d131f] shadow-2xl shadow-black/40">
       {/* Terminal Titlebar */}
       <div className="flex items-center justify-between px-4 py-3 bg-[#080d16] border-b border-white/10">
         <div className="flex items-center gap-2">

@@ -62,9 +62,9 @@ export default function Navbar() {
 
   return (
     <header
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
+      className={`fixed top-0 left-0 right-0 z-50 transition-colors duration-150 ${
         isScrolled
-          ? "bg-[#0b0f19]/85 backdrop-blur-md border-b border-white/10 shadow-lg shadow-black/30"
+          ? "bg-[#0b0f19] border-b border-white/10 shadow-lg shadow-black/30"
           : "bg-transparent border-b border-transparent"
       }`}
     >
@@ -83,7 +83,7 @@ export default function Navbar() {
         </Link>
 
         {/* Desktop Nav */}
-        <nav className="hidden md:flex items-center gap-1 bg-slate-900/60 p-1.5 rounded-full border border-white/5 backdrop-blur-md">
+        <nav className="hidden md:flex items-center gap-1 bg-slate-900/95 p-1.5 rounded-full border border-white/10">
           {navLinks.map((link) => {
             const isActive = activeSection === link.id;
             return (
